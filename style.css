@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .page-container {
+    min-height: 100%; /* Ensures the container expands at least to the full height of the viewport */
+    /* You can use height instead of min-height if you want a fixed height */
+    background-color: #f0f0f0; /* Set a background color for better visibility */
+  }
+  
+
+.navbar{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 50px;
+    box-shadow: 20px;
+  }
+
+  .navbar-header{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-left: 600px;
+  }
+
+
+  li{
+    font-size: 16px;
+    text-align: center;
+    width: 100px;
+    border: 1px solid black;
+    margin-top: 6px;
+    margin: 6px;
+  }
+
+  .landing {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically */
+    margin-top: 30px;
+}
+
+  
+  .content {
+    font-weight: 300; /* Adjust the font weight */
+    font-size: 3rem; /* Use relative units for font size */
+    margin-top: 20px;
+    text-align: center; /* Center the text */
+}
+
+.content-1 {
+    font-weight: 300; /* Adjust the font weight */
+    font-size: 1.5rem; /* Use relative units for font size */
+    margin-top: 2px;
+    text-align: center; /* Center the text */
+}
+
+  /* .content{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 100;
+    font-size: 60px;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+
+  .content-1{
+    display: flex;
+    justify-content: center;
+    font-weight: 50;
+    font-size: 30px;
+    margin-top: 2px;
+    padding-top: 3px;
+  } */
+
+  button {
+    display: inline-block; /* Make the button an inline-block element */
+    padding: 10px 20px; /* Add padding for better spacing */
+    border-radius: 5px; /* Adjust the border-radius */
+    font-size: 1rem; /* Use relative units for font size */
+    background-color: #83878b; /* Choose a color that fits your design */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underlines */
+    transition: background-color 0.3s ease; /* Add a smooth transition */
+    margin-left:1000px;
+    margin-top: 20px;
+}
+
+
+button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+  
+ 
